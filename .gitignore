@@ -1,0 +1,72 @@
+# ======================
+# General
+# ======================
+.DS_Store
+Thumbs.db
+*.log
+.env
+.env.*.local
+*.sqlite3
+
+# ======================
+# Python / FastAPI
+# ======================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.env/
+.venv/
+venv/
+env/
+dist/
+build/
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# sqlite_vec extension build artifacts
+*.so
+*.dylib
+
+# ======================
+# Node / React
+# ======================
+node_modules/
+dist/
+build/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.cache/
+.next/
+out/
+
+# Vite
+.vite/
+*.tsbuildinfo
+
+# ======================
+# IDEs & Editors
+# ======================
+
+# PyCharm
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# JetBrains IDEs
+*.iws
+*.ipr
+
+# ======================
+# OS files
+# ======================
+ehthumbs.db
+Icon?
+
